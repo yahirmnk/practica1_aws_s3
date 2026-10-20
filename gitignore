@@ -1,0 +1,26 @@
+# --- Credenciales y secretos (NUNCA subir) ---
+.aws/
+credentials
+config.yaml
+*.pem
+*.key
+.env
+.env.*
+
+# --- Entorno virtual ---
+venv/
+.venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Datos descargados localmente ---
+*.csv
+*.json
+
+# --- Editor / sistema ---
+.vscode/
+.DS_Store
+Thumbs.db
